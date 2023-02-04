@@ -7,18 +7,177 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<!--Подключаем шрифты  &display=swap-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
 	<!--------------------------------------------------------------->
-	<title></title>
+	<title>Test</title>
 </head>
 
 <body>
 	<div class="wrapper">
+		<header class="header">
 
+		</header>
+		<main class="content">
+			<div class="content__dashboard">
+				<div class="content__dashboard-logo logo-dashboard">
+					<img class="logo-dashboard__icon" src="./img/logo/logo 1.png" alt="image.logo">
+					<h2 class="logo-dashboard__title"> <a href="#">Dashboard</a></h2>
+					<div class="logo-dashboard__item">
+						<p>v.01</p>
+					</div>
+				</div>
+				<ul class="content__dashboard-menu menu-dashboard">
+					<li class="menu-dashboard__inner">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/key-square01.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Dashboard</a>
+					</li>
+					<li class="menu-dashboard__inner">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/3d-square 102.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Product</a>
+						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-left.png" alt="images">
+					</li>
+					<li class="menu-dashboard__inner-active">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/user-square 103.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Customers</a>
+						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-wite.png" alt="images">
+					</li>
+					<li class="menu-dashboard__inner">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/wallet-money 204.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Income</a>
+						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-left.png" alt="images">
+					</li>
+					<li class="menu-dashboard__inner">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/discount-shape 105.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Promote</a>
+						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-left.png" alt="images">
+					</li>
+					<li class="menu-dashboard__inner">
+						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/mes 106.png" alt="image.menu">
+						<a class="menu-dashboard__title" href="#">Help</a>
+						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-left.png" alt="images">
+					</li>
+				</ul>
+				<div class="content__dashboard-icons dashboard-icons">
+					<img class="dashboard-icons__image" src="./img/evano.png" alt="evano.png">
+
+					<div class="dashboard-icons__inner">
+						<h4 class="dashboard-icons__inner-name">Evano</h4>
+						<p class="dashboard-icons__inner-profession">Project Manager</p>
+					</div>
+				</div>
+			</div>
+			<div class="content__customers">
+				<h2 class="content__customers__logo"><img src="./img/logo/Hello Evano 👋🏼,.png" alt="image.logo"></h2>
+				<div class="content__customers-inner inner-customers">
+					<div class="inner-customers__item item-customers">
+						<h3 class="item-customers__title">All Customers</h3>
+						<div class="item-customers__text">
+							<p>
+								Active Members
+							</p>
+						</div>
+					</div>
+					<div class="inner-customers__search">
+						<label for="i-1" class="inner-customers__label"><img src="./img/logo/Dashboard/loupe 1.png"
+								alt="loupe 1.png"></label>
+						<input placeholder="Search" required id="i-1" type="text" class="inner-customers__input" name="name">
+
+					</div>
+				</div>
+				<div class="content__customers-questionnaire questionnaire-customers">
+					<div class="questionnaire-customers__content">
+						<ul class="tems-customers inactive">
+							<li class="questionnaire-customers__tems-name">Customer Name</li>
+							<li class="questionnaire-customers__tems-company">Company</li>
+							<li class="questionnaire-customers__tems-phone">Phone Number</li>
+							<li class="questionnaire-customers__tems-email">Email</li>
+							<li class="questionnaire-customers__tems-country">Country</li>
+							<li class="questionnaire-customers__tems-status">Status</li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Jane Cooper</li>
+							<li class="questionnaire-customers__tems-company">Microsoft</li>
+							<li class="questionnaire-customers__tems-phone">(225) 555-0118</li>
+							<li class="questionnaire-customers__tems-email">jane@microsoft.com</li>
+							<li class="questionnaire-customers__tems-country">United States</li>
+							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Floyd Miles</li>
+							<li class="questionnaire-customers__tems-company">Yahoo</li>
+							<li class="questionnaire-customers__tems-phone">(205) 555-0100</li>
+							<li class="questionnaire-customers__tems-email">floyd@yahoo.com</li>
+							<li class="questionnaire-customers__tems-country">Kiribati</li>
+							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Ronald Richards</li>
+							<li class="questionnaire-customers__tems-company">Adobe</li>
+							<li class="questionnaire-customers__tems-phone">(302) 555-0107</li>
+							<li class="questionnaire-customers__tems-email">ronald@adobe.com</li>
+							<li class="questionnaire-customers__tems-country">Israel</li>
+							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Marvin McKinney</li>
+							<li class="questionnaire-customers__tems-company">Tesla</li>
+							<li class="questionnaire-customers__tems-phone">(252) 555-0126</li>
+							<li class="questionnaire-customers__tems-email">marvin@tesla.com</li>
+							<li class="questionnaire-customers__tems-country">Iran</li>
+							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Jerome Bell</li>
+							<li class="questionnaire-customers__tems-company">Google</li>
+							<li class="questionnaire-customers__tems-phone">(629) 555-0129</li>
+							<li class="questionnaire-customers__tems-email">jerome@google.com</li>
+							<li class="questionnaire-customers__tems-country">Réunion</li>
+							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Kathryn Murphy</li>
+							<li class="questionnaire-customers__tems-company">Microsoft</li>
+							<li class="questionnaire-customers__tems-phone">(406) 555-0120</li>
+							<li class="questionnaire-customers__tems-email">kathryn@microsoft.com</li>
+							<li class="questionnaire-customers__tems-country">Curaçao</li>
+							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Jacob Jones</li>
+							<li class="questionnaire-customers__tems-company">Yahoo</li>
+							<li class="questionnaire-customers__tems-phone">(208) 555-0112</li>
+							<li class="questionnaire-customers__tems-email">jacob@yahoo.com</li>
+							<li class="questionnaire-customers__tems-country">Brazil</li>
+							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
+						</ul>
+						<ul class=" tems-customers">
+							<li class="questionnaire-customers__tems-name">Kristin Watson</li>
+							<li class="questionnaire-customers__tems-company">Facebook</li>
+							<li class="questionnaire-customers__tems-phone">(704) 555-0127</li>
+							<li class="questionnaire-customers__tems-email">kristin@facebook.com</li>
+							<li class="questionnaire-customers__tems-country">Åland Islands</li>
+							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
+						</ul>
+					</div>
+					<div class="questionnaire-customers__data data-customers">
+						<div class="data-customers__title">
+							<p>
+								Showing data 1 to 8 of 256K entries
+							</p>
+						</div>
+						<div class="data-customers__page">
+							<img src="./img/logo/Groupnumber.png" alt="Groupnumber.png">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
 	</div>
-<!--подключаем jquery-->
+	<!--подключаем jquery-->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
 
-         <!--Подключаем  js  -->
+	<!--Подключаем  js  -->
 	<script src="js/script.js"></script>
 	<!--------------------------------------------->
 </body>
