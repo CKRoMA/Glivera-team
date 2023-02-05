@@ -449,20 +449,20 @@ color: #000000;
 	border: 1px solid #00B087;
 	border-radius: 4px;
 	font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height */
 
-letter-spacing: -0.01em;
+	letter-spacing: -0.01em;
 
-color: #008767;
+	color: #008767;
 
 
 /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
 .inactive .questionnaire-customers__tems-status {
 	padding-left: 10px;
@@ -591,8 +591,14 @@ color: #B5B7C0;
 		padding-left: 0px;
 		margin: 0 auto;
   }
+  .questionnaire-customers__tems-name{
+		flex-wrap: wrap;
+		line-height: 11px;
+  }
   .tems-customers.inactive {
 		flex-wrap: wrap;
+		line-height: 11px;
+		
 	}
 	.questionnaire-customers__tems-phone{
 		flex-wrap: wrap;
@@ -602,8 +608,9 @@ color: #B5B7C0;
 		flex-wrap: wrap;
 	}
 	.questionnaire-customers__tems-country {
+		display: flex;
 		flex-wrap: wrap; 
-	  
+		line-height: 11px;
   } 
 	.tems-customers {
 		width: 702px;
