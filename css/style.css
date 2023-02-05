@@ -403,7 +403,7 @@ color: #000000;
 	
 } 
 .questionnaire-customers__tems-status.inactive button{
-	margin:16px 0px 0px 0px;
+	margin:8px 0px 8px 0px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -431,7 +431,7 @@ color: #000000;
 	border-radius: 4px;
 }
 .questionnaire-customers__tems-status button {
-	margin:19px 0px 0px 0px;
+	margin:10px 0px 10px 0px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
