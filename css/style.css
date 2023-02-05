@@ -602,10 +602,12 @@ color: #B5B7C0;
 	}
 	.questionnaire-customers__tems-phone{
 		flex-wrap: wrap;
+		line-height: 11px;
 	}
 
 	.questionnaire-customers__tems-email{
 		flex-wrap: wrap;
+		line-height: 11px;
 	}
 	.questionnaire-customers__tems-country {
 		display: flex;
