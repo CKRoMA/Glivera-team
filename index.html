@@ -36,9 +36,9 @@
 						<a class="menu-dashboard__title" href="#">Product</a>
 						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-left.png" alt="images">
 					</li>
-					<li class="menu-dashboard__inner _active">
-						<img class="menu-dashboard__icon" src="./img/logo/Dashboard/user-square 103.png" alt="image.menu">
-						<a class="menu-dashboard__title" href="#">Customers</a>
+					<li class="menu-dashboard__inner inner-cuctomers _active " ">
+						<img class=" menu-dashboard__icon" src="./img/logo/Dashboard/user-square 103.png" alt="image.menu">
+						<a onclick="openbox('box'); return false" class="menu-dashboard__title" href="#">Customers</a>
 						<img class="menu-dashboard__arrow" src="./img/logo/Dashboard/arrow-wite.png" alt="images">
 					</li>
 					<li class="menu-dashboard__inner">
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<div class="content__customers">
-				<h2 class="content__customers__logo"><img src="./img/logo/Hello Evano 👋🏼,.png" alt="image.logo"></h2>
+				<h2 class=" content__customers__logo"><img src="./img/logo/Hello Evano 👋🏼,.png" alt="image.logo"></h2>
 				<div class="content__customers-inner inner-customers">
 					<div class="inner-customers__item item-customers">
 						<h3 class="item-customers__title">All Customers</h3>
@@ -85,80 +85,91 @@
 					</div>
 				</div>
 				<div class="content__customers-questionnaire questionnaire-customers">
-					<div class="questionnaire-customers__content">
-						<ul class="tems-customers inactive">
-							<li class="questionnaire-customers__tems-name">Customer Name</li>
-							<li class="questionnaire-customers__tems-company">Company</li>
-							<li class="questionnaire-customers__tems-phone">Phone Number</li>
-							<li class="questionnaire-customers__tems-email">Email</li>
-							<li class="questionnaire-customers__tems-country">Country</li>
-							<li class="questionnaire-customers__tems-status">Status</li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Jane Cooper</li>
-							<li class="questionnaire-customers__tems-company">Microsoft</li>
-							<li class="questionnaire-customers__tems-phone">(225) 555-0118</li>
-							<li class="questionnaire-customers__tems-email">jane@microsoft.com</li>
-							<li class="questionnaire-customers__tems-country">United States</li>
-							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Floyd Miles</li>
-							<li class="questionnaire-customers__tems-company">Yahoo</li>
-							<li class="questionnaire-customers__tems-phone">(205) 555-0100</li>
-							<li class="questionnaire-customers__tems-email">floyd@yahoo.com</li>
-							<li class="questionnaire-customers__tems-country">Kiribati</li>
-							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Ronald Richards</li>
-							<li class="questionnaire-customers__tems-company">Adobe</li>
-							<li class="questionnaire-customers__tems-phone">(302) 555-0107</li>
-							<li class="questionnaire-customers__tems-email">ronald@adobe.com</li>
-							<li class="questionnaire-customers__tems-country">Israel</li>
-							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Marvin McKinney</li>
-							<li class="questionnaire-customers__tems-company">Tesla</li>
-							<li class="questionnaire-customers__tems-phone">(252) 555-0126</li>
-							<li class="questionnaire-customers__tems-email">marvin@tesla.com</li>
-							<li class="questionnaire-customers__tems-country">Iran</li>
-							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Jerome Bell</li>
-							<li class="questionnaire-customers__tems-company">Google</li>
-							<li class="questionnaire-customers__tems-phone">(629) 555-0129</li>
-							<li class="questionnaire-customers__tems-email">jerome@google.com</li>
-							<li class="questionnaire-customers__tems-country">Réunion</li>
-							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Kathryn Murphy</li>
-							<li class="questionnaire-customers__tems-company">Microsoft</li>
-							<li class="questionnaire-customers__tems-phone">(406) 555-0120</li>
-							<li class="questionnaire-customers__tems-email">kathryn@microsoft.com</li>
-							<li class="questionnaire-customers__tems-country">Curaçao</li>
-							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Jacob Jones</li>
-							<li class="questionnaire-customers__tems-company">Yahoo</li>
-							<li class="questionnaire-customers__tems-phone">(208) 555-0112</li>
-							<li class="questionnaire-customers__tems-email">jacob@yahoo.com</li>
-							<li class="questionnaire-customers__tems-country">Brazil</li>
-							<li class="questionnaire-customers__tems-status"><button>Active</button></li>
-						</ul>
-						<ul class=" tems-customers">
-							<li class="questionnaire-customers__tems-name">Kristin Watson</li>
-							<li class="questionnaire-customers__tems-company">Facebook</li>
-							<li class="questionnaire-customers__tems-phone">(704) 555-0127</li>
-							<li class="questionnaire-customers__tems-email">kristin@facebook.com</li>
-							<li class="questionnaire-customers__tems-country">Åland Islands</li>
-							<li class="questionnaire-customers__tems-status inactive"><button>inactive</button></li>
-						</ul>
-					</div>
+
+
+					<table>
+						<colgroup>
+							<col style="width:124px;">
+							<col style="width:94px;">
+							<col style="width:107px;">
+							<col style="width:113px;">
+							<col style="width:94px;">
+							<col style="width:80px;">
+						</colgroup>
+						<tr>
+							<th>Customer Name</th>
+							<th>Company</th>
+							<th>Phone Number</th>
+							<th>Email</th>
+							<th>Country</th>
+							<th>Status</th>
+						</tr>
+
+						<tr>
+							<td>Jane Cooper</td>
+							<td>Microsoft</td>
+							<td>(225) 555-0118</td>
+							<td>jane@microsoft.com</td>
+							<td>United States</td>
+							<td><button class="tems-customers__active">Active</button></td>
+						</tr>
+						<tr>
+							<td>Floyd Miles</td>
+							<td>Yahoo</td>
+							<td>(205) 555-0100</td>
+							<td>jane@microsoft.com</td>
+							<td>Kiribati</td>
+							<td><button class="tems-customers__inactive">inactive</button></td>
+						</tr>
+						<tr>
+							<td>Ronald Richards</td>
+							<td>Adobe</td>
+							<td>(302) 555-0107</td>
+							<td>ronald@adobe.com</td>
+							<td>Israel</td>
+							<td><button class="tems-customers__inactive">inactive</button></td>
+						</tr>
+						<tr>
+							<td>Marvin McKinney</td>
+							<td>Tesla</td>
+							<td>(252) 555-0126</td>
+							<td>marvin@tesla.com</td>
+							<td>Iran</td>
+							<td><button class="tems-customers__active">Active</button></td>
+						</tr>
+						<tr>
+							<td>Jerome Bell</td>
+							<td>Google</td>
+							<td>(629) 555-0129</td>
+							<td>jerome@google.com</td>
+							<td>Réunion</td>
+							<td><button class="tems-customers__active">Active</button></td>
+						</tr>
+						<tr>
+							<td>Kathryn Murphy</td>
+							<td>Microsoft</td>
+							<td>(406) 555-0120</td>
+							<td>kathryn@microsoft.com</td>
+							<td>Curaçao</td>
+							<td><button class="tems-customers__active">Active</button></td>
+						</tr>
+						<tr>
+							<td>Jacob Jones</td>
+							<td>Yahoo</td>
+							<td>(208) 555-0112</td>
+							<td>jacob@yahoo.com</td>
+							<td>Brazil</td>
+							<td><button class="tems-customers__active">Active</button></td>
+						</tr>
+						<tr>
+							<td>Kristin Watson</td>
+							<td>Facebook</td>
+							<td>(704) 555-0127</td>
+							<td>kristin@facebook.com</td>
+							<td>Åland Islands</td>
+							<td><button class="tems-customers__inactive">inactive</button></td>
+						</tr>
+					</table>
 					<div class="questionnaire-customers__data data-customers">
 						<div class="data-customers__title">
 							<p>

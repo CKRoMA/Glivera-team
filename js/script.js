@@ -1,5 +1,7 @@
 // "use strict" // строгий режим
+
 const links = document.querySelectorAll('.menu-dashboard__inner');
+
 
 for (let link of links) {
 	link.addEventListener('click', () => {
@@ -9,7 +11,25 @@ for (let link of links) {
 		}
 		link.classList.add('_active');
 	})
+
 }
 
+// function openbox(id) {
+
+// 	display = document.getElementById(id).style.display;
+
+
+
+// 	if (display == 'none') {
+
+// 		document.getElementById(id).style.display = 'block';
+
+// 	} else {
+
+// 		document.getElementById(id).style.display = 'none';
+
+// 	}
+
+// }
 
 
